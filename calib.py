@@ -656,11 +656,3 @@ def Get_Camera_Position(cam2tcp_rmtx, cam2tcp_tvec, tcp2base_rmtx, tcp2base_tvec
     cam_pos_tvec = tcp2base_rmtx * cam2tcp_tvec + tcp2base_tvec
     return cam_pos_rmtx, cam_pos_tvec
 
-
-if __name__ == '__main__':
-    #EyeInHand
-    calib_EyeInHand()
-
-    #EyeToHand
-    calib_EyeToHand()
-
